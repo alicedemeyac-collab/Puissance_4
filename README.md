@@ -1,6 +1,6 @@
-# 🔴🟡 Puissance 4 — Java & JavaFX
+#Puissance 4 — Java & JavaFX
 
-Un jeu de **Puissance 4** (Connect Four) développé en **Java 17** avec **JavaFX**, jouable à deux ou seul contre un ordinateur dont l'intelligence artificielle repose sur l'algorithme **Minimax / Negamax avec élagage alpha-bêta**.
+Un jeu de **Puissance 4** (Four in a line) développé en **Java** avec **JavaFX**, jouable à deux ou seul contre un ordinateur dont l'intelligence artificielle repose sur l'algorithme **Minimax / Negamax avec élagage alpha-bêta**.
 
 <!-- Ajoutez une capture d'écran : placez-la dans docs/screenshot.png -->
 <!-- ![Capture d'écran](docs/screenshot.png) -->
@@ -15,13 +15,6 @@ Un jeu de **Puissance 4** (Connect Four) développé en **Java 17** avec **JavaF
 - Détection du match nul
 - Scores conservés sur plusieurs manches, le joueur qui commence alterne à chaque manche
 - Calcul de l'IA dans un thread séparé : l'interface ne se fige jamais
-
-## 🧰 Prérequis
-
-- **JDK 17** ou supérieur
-- **Maven 3.6** ou supérieur
-
-JavaFX est téléchargé automatiquement par Maven, il n'y a rien d'autre à installer.
 
 ## 🚀 Lancer le jeu
 
@@ -99,19 +92,6 @@ L'ordinateur utilise **Negamax**, une version simplifiée de Minimax, avec **él
 | Moyen     | 4          | —                                   |
 | Difficile | 6          | —                                   |
 
-## 🔧 Pistes d'amélioration
-
-- Choisir la couleur ou qui commence
-- Bouton « Annuler le dernier coup »
-- Sons et effets visuels supplémentaires
-- Fenêtre redimensionnable
-- Mode en réseau
-- Tests unitaires JUnit sur `Board` et `Game`
-
-## 📄 Licence
-
-Ce projet est distribué sous licence **MIT** — voir le fichier [LICENSE](LICENSE).
 
 ## 👤 Auteur
-
-Votre Nom — [@votre-pseudo](https://github.com/votre-pseudo)
+Alice DEMEY
